@@ -11,7 +11,7 @@ function initializeApp(data) {
     document.getElementById('utouidfield').textContent = data.context.utouId;
     document.getElementById('roomidfield').textContent = data.context.roomId;
     document.getElementById('groupidfield').textContent = data.context.groupId;
-    window.alert(data);
+    window.alert(data.context.userId);
     // openWindow call
     document.getElementById('openwindowbutton').addEventListener('click', function () {
         liff.openWindow({
